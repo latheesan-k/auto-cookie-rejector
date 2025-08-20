@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Cookie Rejector",
+  "version": "1.0.0",
+  "description": "A Chrome extension that automatically rejects cookie consent banners.",
+  "icons": {
+    "16": "reject-16.png",
+    "32": "reject-32.png",
+    "48": "reject-48.png",
+    "128": "reject-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end",
+      "all_frames": true,
+      "match_about_blank": true
+    }
+  ]
+}

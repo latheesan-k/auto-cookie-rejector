@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Documentation
+    url: https://github.com/your-username/auto-cookie-rejector/blob/main/README.md
+    about: Check the README for detailed information about the extension
+  - name: Feature Requests Discussion
+    url: https://github.com/your-username/auto-cookie-rejector/discussions
+    about: Please discuss feature requests in the Discussions section
